@@ -1,1 +1,2 @@
-![image](https://github.com/MrWeasel9/TODOs-Website/assets/47690910/3bccb0e6-2ac8-4417-b3f5-14315cf8cb15)
+![image](https://github.com/MrWeasel9/TODOs-Website/assets/47690910/0429a8f1-58d5-43c1-baed-7ec5285c3832)
+
