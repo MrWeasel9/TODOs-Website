@@ -1,0 +1,39 @@
+<html>
+
+    <head>
+        <link rel="stylesheet" href="todostyle.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+
+    <body class="body">
+        <header class="title">
+            <h1>todos</h1>
+        </header>
+        <form class="todo-form">
+
+            <button class="todo-button">
+                <i class="fa fa-angle-down" aria-hidden="true"></i>
+            </button>
+            <input type="text" class="todo-input" placeholder="What needs to be done?">
+
+        </form>
+        <div class="todo-container">
+            <ul class="todo-list"></ul>
+
+        </div>
+        <footer class="footer">
+
+            <div class="footer-buttons">
+                <span class="todo-counter"> items left</span>
+                <button class="all-filter">All</button>
+                <button class="active-filter">Active</button>
+                <button class="completed-filter">Completed</button>
+                <button class="delete-completed">Clear completed</button>
+            </div>
+        </footer>
+
+        <script src="todosScript.js"></script>
+    </body>
+
+</html>

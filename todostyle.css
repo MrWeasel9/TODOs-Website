@@ -1,0 +1,128 @@
+.title {
+  margin: auto;
+  text-align: center;
+  padding: auto;
+  width: auto;
+  color: salmon;
+  font-size: 350%;
+}
+.body {
+  background-color: rgb(233, 231, 231);
+}
+.todo-form {
+  background-color: white;
+  width: 70%;
+  height: 10%;
+  margin: auto;
+  margin-bottom: 0%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.todo-button {
+  margin-right: 5%;
+  margin-left: 1%;
+  margin-top: 2.5%;
+  border: none;
+  cursor: pointer;
+  width: 5vw;
+  height: 6vh;
+  background-color: transparent;
+  background-size: 100% 100%;
+  font-size: 5vh;
+}
+
+.todo-input {
+  border: none;
+  font-size: 2rem;
+  outline: none;
+  background-color: transparent;
+  width: 50vw;
+  margin: 0 auto;
+}
+.todo-list {
+  width: 70%;
+  margin: auto;
+  list-style: none;
+  padding: 0;
+}
+.todo {
+  margin: 1rem;
+  background-color: white;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.todo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo li {
+  flex: 1;
+  height: 2vh;
+  text-align: center;
+  font-size: 150%;
+}
+.fa-trash:hover { 
+  pointer-events: none;
+  color: red;
+}
+.fa-check {
+  pointer-events: none;
+}
+
+.completed-button {
+  border: none;
+  font-size: 2.5vh;
+  cursor: pointer;
+  padding: 1rem;
+  margin-left: 0.75rem;
+  background-color: transparent;
+  color: gray;
+}
+.trash-button {
+  border: none;
+  font-size: 2.5vh;
+  cursor: pointer;
+  padding: 1rem;
+  margin-right: 0.75rem;
+  background-color: transparent;
+}
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+
+.footer-buttons {
+  display: none;
+  text-align: center;
+  margin: auto;
+  width: 60%;
+}
+
+.completed-filter {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.active-filter {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.all-filter {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-completed {
+  
+  float: right;
+}
+
+.todo-counter {
+    float: left;
+}
